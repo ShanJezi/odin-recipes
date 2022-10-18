@@ -9,6 +9,9 @@ h1, h2 {
     color: #412247;
     background-color: #84ce97;
     text-align: center;
+}
+
+h1 {
     font-size: 56px;
 }
 
@@ -33,6 +36,7 @@ img {
 } 
 
 .recipe-container {
+    display: flex;
     border: 2px solid #84ce97;
     margin: 10px auto;
     padding: 10px 10px;
@@ -40,25 +44,19 @@ img {
     width: fit-content;
 }
 
-.recipe-list {
-    padding-inline-start: 0;
-    padding-inline-end: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    display: inline;
-
-}
-
-.recipe {
-    display: inline-flex;
+.recipe-container div {
+    flex: auto;
     text-align: center;
     background-color: #84ce97;
-    border: 2px solid #412247;
     height: 100px;
     width: 200px;
     padding: 1em 2.5em;
-    margin: auto auto;
+    margin: 5px;
     font-size: 17px;
+}
+
+a {
+    background-color: #84ce97;
 }
 
 p {
